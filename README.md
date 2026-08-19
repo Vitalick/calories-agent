@@ -1,9 +1,11 @@
-# KBJU Recipe Nutrition Calculator
+# Recipe Nutrition Calculator
 
 [Русская версия](README.ru.md)
 
-An open Codex skill for calculating recipe nutrition: calories, protein,
-fat, and carbohydrates (KBJU) for the whole dish and per 100 grams.
+An open, reusable `SKILL.md` instruction for calculating recipe nutrition:
+calories, protein, fat, and carbohydrates for the whole dish and per 100
+grams. It works with Codex and other AI agents that support the `SKILL.md`
+format.
 
 ## What it does
 
@@ -15,16 +17,17 @@ fat, and carbohydrates (KBJU) for the whole dish and per 100 grams.
 - Uses the final cooked weight for per-100-g values.
 - Requests clarification when the input is incomplete instead of guessing.
 
-## Install
+## Use with an AI agent
 
-Copy the skill directory into your Codex skills directory:
+Copy the skill directory into the skills directory of a compatible AI agent:
 
 ```text
 .agents/skills/recipe-nutrition-calculator/
 ```
 
-After installation, ask Codex to calculate the nutrition of a recipe. The
-skill is selected automatically for KBJU-related requests.
+Then ask the agent to calculate the nutrition of a recipe. Refer to your
+agent's documentation for its exact skills-directory location and activation
+method.
 
 ## Example
 

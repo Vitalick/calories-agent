@@ -2,7 +2,7 @@
 
 ## Project Purpose
 
-- This repository provides a Codex skill for calculating recipe calories, protein, fat, and carbohydrates (KBJU).
+- This repository provides a reusable `SKILL.md` instruction for AI agents to calculate recipe calories, protein, fat, and carbohydrates.
 
 ## Key Files
 
