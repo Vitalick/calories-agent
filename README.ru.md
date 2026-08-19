@@ -18,7 +18,7 @@
 Скопируйте папку навыка в каталог навыков Codex:
 
 ```text
-.agents/skills/podschet-kbzhu-po-receptu/
+.agents/skills/recipe-nutrition-calculator/
 ```
 
 После установки попросите Codex рассчитать КБЖУ рецепта — навык будет выбран
@@ -27,9 +27,10 @@
 ## Пример
 
 ```text
-Рассчитай КБЖУ блюда: 500 г куриной грудки (110 ккал, 23 г белков,
-1,5 г жиров, 0 г углеводов на 100 г) и 200 г риса (350 ккал, 7 г белков,
-0,7 г жиров, 78 г углеводов на 100 г). Готовый вес блюда — 600 г.
+Calculate calories and macros for a dish with 500 g chicken breast
+(110 kcal, 23 g protein, 1.5 g fat, 0 g carbs per 100 g) and 200 g rice
+(350 kcal, 7 g protein, 0.7 g fat, 78 g carbs per 100 g). The finished
+dish weighs 600 g.
 ```
 
 В ответе будут таблица ингредиентов, итог для всего блюда и КБЖУ на 100 г.
@@ -51,7 +52,7 @@
 ## Структура проекта
 
 ```text
-.agents/skills/podschet-kbzhu-po-receptu/
+.agents/skills/recipe-nutrition-calculator/
 ├── SKILL.md          # Инструкции навыка
 └── evals/evals.json  # Проверочные сценарии
 ```

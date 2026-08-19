@@ -1,5 +1,5 @@
 ---
-name: podschet-kbzhu-po-receptu
+name: recipe-nutrition-calculator
 description: Use when a user asks to calculate calories, protein, fat, carbohydrates, ingredients, recipe nutrition, dish nutrition, serving totals, or nutrition per 100 g from recipe text, images, screenshots, or links.
 ---
 

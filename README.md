@@ -20,7 +20,7 @@ fat, and carbohydrates (KBJU) for the whole dish and per 100 grams.
 Copy the skill directory into your Codex skills directory:
 
 ```text
-.agents/skills/podschet-kbzhu-po-receptu/
+.agents/skills/recipe-nutrition-calculator/
 ```
 
 After installation, ask Codex to calculate the nutrition of a recipe. The
@@ -29,7 +29,7 @@ skill is selected automatically for KBJU-related requests.
 ## Example
 
 ```text
-Calculate KBJU for a dish with 500 g chicken breast (110 kcal, 23 g protein,
+Calculate calories and macros for a dish with 500 g chicken breast (110 kcal, 23 g protein,
 1.5 g fat, 0 g carbs per 100 g) and 200 g rice (350 kcal, 7 g protein,
 0.7 g fat, 78 g carbs per 100 g). The finished dish weighs 600 g.
 ```
@@ -54,7 +54,7 @@ the calculation is completed.
 ## Project layout
 
 ```text
-.agents/skills/podschet-kbzhu-po-receptu/
+.agents/skills/recipe-nutrition-calculator/
 ├── SKILL.md          # Skill instructions
 └── evals/evals.json  # Evaluation cases
 ```

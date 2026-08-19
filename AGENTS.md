@@ -8,8 +8,8 @@
 
 | Need | File |
 |---|---|
-| Skill behavior and response template | `.agents/skills/podschet-kbzhu-po-receptu/SKILL.md` |
-| Evaluation scenarios | `.agents/skills/podschet-kbzhu-po-receptu/evals/evals.json` |
+| Skill behavior and response template | `.agents/skills/recipe-nutrition-calculator/SKILL.md` |
+| Evaluation scenarios | `.agents/skills/recipe-nutrition-calculator/evals/evals.json` |
 | Russian project documentation | `README.ru.md` |
 | English project documentation | `README.md` |
 
